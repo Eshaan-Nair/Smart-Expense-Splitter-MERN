@@ -1,0 +1,224 @@
+/* AllSettlements - Dark Theme */
+
+.settlements-page-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f0f1e 0%, #1a1a2e 100%);
+  color: #e0e0e0;
+}
+
+.settlements-page-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Header */
+.settlements-page-header {
+  margin-bottom: 2rem;
+}
+
+.settlements-page-header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 0.5rem;
+}
+
+.settlements-page-header p {
+  font-size: 0.875rem;
+  color: #9ca3af;
+}
+
+/* Empty State */
+.settlements-empty-state {
+  background: rgba(30, 30, 46, 0.4);
+  border: 1px dashed rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.settlements-empty-icon {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto 1.5rem;
+  color: #6b7280;
+  opacity: 0.5;
+}
+
+.settlements-empty-state h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #d1d5db;
+  margin-bottom: 0.5rem;
+}
+
+.settlements-empty-state p {
+  font-size: 0.875rem;
+  color: #9ca3af;
+}
+
+/* Settlements List */
+.settlements-list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.settlement-group-card {
+  background: rgba(30, 30, 46, 0.6);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 1.75rem;
+  transition: all 0.3s ease;
+}
+
+.settlement-group-card:hover {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.settlement-group-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.settlement-group-header:hover {
+  opacity: 0.8;
+}
+
+.settlement-group-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+  flex-shrink: 0;
+}
+
+.settlement-group-info h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #f3f4f6;
+  margin-bottom: 0.25rem;
+}
+
+.settlement-group-info p {
+  font-size: 0.875rem;
+  color: #9ca3af;
+}
+
+/* Settlements Grid */
+.settlements-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.settlement-card {
+  background: rgba(15, 15, 30, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 1.25rem;
+  transition: all 0.3s ease;
+}
+
+.settlement-card:hover {
+  background: rgba(15, 15, 30, 0.6);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.settlement-card.user-owes {
+  background: rgba(239, 68, 68, 0.05);
+  border-color: rgba(239, 68, 68, 0.2);
+}
+
+.settlement-card.user-owes:hover {
+  background: rgba(239, 68, 68, 0.1);
+  border-color: rgba(239, 68, 68, 0.3);
+}
+
+.settlement-card-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.settlement-card-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  background: rgba(239, 68, 68, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.settlement-card-icon .icon {
+  width: 20px;
+  height: 20px;
+  color: #ef4444;
+}
+
+.settlement-card-details {
+  flex: 1;
+}
+
+.settlement-card-text {
+  font-size: 0.875rem;
+  color: #d1d5db;
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+.settlement-card-text .name {
+  font-weight: 600;
+  color: #f3f4f6;
+}
+
+.settlement-card-text .label {
+  color: #9ca3af;
+}
+
+.settlement-card-amount {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #f3f4f6;
+}
+
+.settlement-card-badge {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #ef4444;
+  margin-top: 0.5rem;
+  display: block;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .settlements-page-content {
+    padding: 1rem;
+  }
+
+  .settlements-page-header h1 {
+    font-size: 1.5rem;
+  }
+
+  .settlements-grid {
+    grid-template-columns: 1fr;
+  }
+}
