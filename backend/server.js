@@ -12,7 +12,7 @@ const app=express();
 app.use(cors({
   origin: [
     'http://localhost:3000',
-    'https://smart-expense-splitter-mern.vercel.app'
+    'https://splitsmart-mern.vercel.app'
   ],
   credentials: true
 }));
