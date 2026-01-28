@@ -1,6 +1,6 @@
 <div align="center">
 
-# 💰 SplitSmart
+# SplitSmart
 
 ### Intelligent Expense Splitting Platform
 
@@ -19,7 +19,7 @@
 
 ---
 
-## 📑 Table of Contents
+## Table of Contents
 
 - [About](#-about)
 - [Features](#-features)
@@ -33,7 +33,7 @@
 
 ---
 
-## 🎯 About
+## About
 
 **SplitSmart** is a full-stack web application that revolutionizes how groups manage shared expenses. Built with the MERN stack, it uses advanced graph-based algorithms to minimize the number of transactions needed to settle group debts.
 
@@ -51,16 +51,16 @@ SplitSmart's intelligent algorithm reduces this to just 2-3 optimized transactio
 
 ### Perfect For:
 
-- 🏠 **Roommates** - Split rent, utilities, and groceries
-- ✈️ **Travel Groups** - Manage trip expenses seamlessly
-- 🍕 **Friends** - Share meal and activity costs
-- 💼 **Teams** - Handle group purchases and events
+- **Roommates** - Split rent, utilities, and groceries
+- **Travel Groups** - Manage trip expenses seamlessly
+- **Friends** - Share meal and activity costs
+- **Teams** - Handle group purchases and events
 
 ---
 
-## ✨ Features
+## Features
 
-### 🔥 Core Features
+### Core Features
 
 | Feature | Description |
 |---------|-------------|
@@ -71,7 +71,7 @@ SplitSmart's intelligent algorithm reduces this to just 2-3 optimized transactio
 | **Expense Categories** | Food, Transport, Shopping, Entertainment, Bills, Other |
 | **Search & Filter** | Find expenses by date, category, or person |
 
-### 📊 Advanced Features
+### Advanced Features
 
 | Feature | Description |
 |---------|-------------|
@@ -82,7 +82,7 @@ SplitSmart's intelligent algorithm reduces this to just 2-3 optimized transactio
 | **Member Management** | Add/remove group members easily |
 | **Responsive Design** | Seamless experience on all devices |
 
-### 🔐 Security & Auth
+### Security & Auth
 
 - **JWT Authentication** - Secure token-based login
 - **Password Hashing** - Bcrypt encryption (10 rounds)
@@ -91,7 +91,7 @@ SplitSmart's intelligent algorithm reduces this to just 2-3 optimized transactio
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 <table>
 <tr>
@@ -126,7 +126,7 @@ Bcrypt.js         - Encryption
 
 ---
 
-## 🚀 Installation [Only works locally as of now]
+## Installation [Only works locally as of now]
 
 ### Prerequisites
 ```bash
@@ -138,13 +138,13 @@ Git
 
 ### Quick Start
 
-#### 1️⃣ Clone the Repository
+#### 1.Clone the Repository
 ```bash
 git clone https://github.com/yourusername/smart-expense-splitter.git
 cd smart-expense-splitter
 ```
 
-#### 2️⃣ Backend Setup
+#### 2.Backend Setup
 ```bash
 cd backend
 npm install
@@ -170,7 +170,7 @@ MongoDB Connected
 Server is running on port 5000
 ```
 
-#### 3️⃣ Frontend Setup
+#### 3.Frontend Setup
 ```bash
 cd ../frontend
 npm install
@@ -185,7 +185,7 @@ Compiled successfully!
 Local: http://localhost:3000
 ```
 
-#### 4️⃣ Access the Application
+#### 4.Access the Application
 
 Open your browser and navigate to:
 ```
@@ -194,7 +194,7 @@ http://localhost:3000
 
 ---
 
-## 📱 Usage
+## Usage
 
 ### First-Time User Flow
 
@@ -231,7 +231,7 @@ Step 4: Mark as paid when settled
 
 ---
 
-## 🧮 The Magic: Settlement Algorithm
+## The Magic: Settlement Algorithm
 
 ### Problem Statement-
 
@@ -324,7 +324,7 @@ const optimizeSettlements = (balances) => {
 
 ---
 
-## 📡 API Endpoints
+## API Endpoints
 
 ### Authentication
 
@@ -417,7 +417,7 @@ smart-expense-splitter/
 │   │   ├── expenseRoutes.js
 │   │   └── settlementRoutes.js
 │   ├── utils/
-│   │   └── settlementAlgorithm.js   # ⭐ Core algorithm
+│   │   └── settlementAlgorithm.js   # Core algorithm
 │   ├── .env
 │   ├── package.json
 │   └── server.js                    # Entry point
@@ -460,7 +460,7 @@ smart-expense-splitter/
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 <div align="center">
 
@@ -501,7 +501,7 @@ smart-expense-splitter/
 
 ---
 
-## 🎓 Key Learning Points
+## Key Learning Points
 
 ### Technical Skills Demonstrated
 
@@ -516,7 +516,7 @@ smart-expense-splitter/
 
 ---
 
-## 🚀 Future Enhancements
+## Future Enhancements
 
 ### Potential Features
 
@@ -533,7 +533,7 @@ smart-expense-splitter/
 ---
 
 
-## 👨‍💻 Author
+## Author
 
 **Eshaan Nair**
 
@@ -541,7 +541,7 @@ smart-expense-splitter/
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Inspired by Splitwise and similar expense-splitting apps
 - UI components styled with Tailwind CSS
@@ -551,7 +551,7 @@ smart-expense-splitter/
 
 <div align="center">
 
-### ⭐ If you found this project helpful, please give it a star!
+### If you found this project helpful, please give it a star!
 
 Made with ❤️ for simplifying group expenses
 
