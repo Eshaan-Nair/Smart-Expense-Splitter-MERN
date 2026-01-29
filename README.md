@@ -13,7 +13,7 @@
 **Simplify group expenses with smart debt settlement algorithms**
 
 <!-- [Live Demo](#) •  -->
-[Features](#-features) • [Installation](#-installation) • [Algorithm](#-the-magic-settlement-algorithm) • [API Docs](#-api-endpoints)
+[Features](#features) • [Installation](#installation) • [Algorithm](#settlement-algorithm) • [API Docs](#api-endpoints)
 
 </div>
 
@@ -21,15 +21,17 @@
 
 ## Table of Contents
 
-- [About](#-about)
-- [Features](#-features)
-- [Tech Stack](#-tech-stack)
+- [About](#about)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
 - [Installation](#-installation)
-- [Usage](#-usage)
-- [Settlement Algorithm](#-the-magic-settlement-algorithm)
-- [API Endpoints](#-api-endpoints)
-- [Project Structure](#-project-structure)
-- [Screenshots](#-screenshots)
+- [Usage](#usage)
+- [Settlement Algorithm](#settlement-algorithm)
+- [API Endpoints](#api-endpoints)
+- [Project Structure](#project-structure)
+- [Screenshots](#screenshots)
+- [Key Learning Points](#key-learning-points)
+- [Future Enhancements](#future-enhancements)
 
 ---
 
@@ -231,7 +233,7 @@ Step 4: Mark as paid when settled
 
 ---
 
-## The Magic: Settlement Algorithm
+## Settlement Algorithm
 
 ### Problem Statement-
 
@@ -553,7 +555,7 @@ smart-expense-splitter/
 
 ### If you found this project helpful, please give it a star!
 
-Made with ❤️ for simplifying group expenses
+Made for simplifying your group expenses
 
 [Back to Top](#-splitsmart)
 
