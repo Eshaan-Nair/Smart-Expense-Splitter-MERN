@@ -128,7 +128,7 @@ Bcrypt.js         - Encryption
 
 ---
 
-## Installation [Only works locally as of now]
+## Installation
 
 ### Prerequisites
 ```bash
